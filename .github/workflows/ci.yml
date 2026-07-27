@@ -40,7 +40,7 @@ jobs:
         run: python scripts/verify_notebook_contract.py
 
       - name: Lint
-        run: ruff check .
+        run: ruff check src tests scripts app.py
 
       - name: Test
         run: pytest -q
