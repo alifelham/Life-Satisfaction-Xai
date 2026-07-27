@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated Heliyon article."
+title: "Predicting Life Satisfaction Using Machine Learning and Explainable AI"
+type: software
+version: 1.2.0
+date-released: 2026-07-27
+authors:
+  - family-names: Khan
+    given-names: Alif Elham
+    email: alif.khan1@northsouth.edu
+  - family-names: Hasan
+    given-names: Mohammad Junayed
+  - family-names: Anjum
+    given-names: Humayra
+  - family-names: Mohammed
+    given-names: Nabeel
+  - family-names: Momen
+    given-names: Sifat
+repository-code: "https://github.com/alifelham/life-satisfaction-xai"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Predicting life satisfaction using machine learning and explainable AI"
+  authors:
+    - family-names: Khan
+      given-names: Alif Elham
+    - family-names: Hasan
+      given-names: Mohammad Junayed
+    - family-names: Anjum
+      given-names: Humayra
+    - family-names: Mohammed
+      given-names: Nabeel
+    - family-names: Momen
+      given-names: Sifat
+  journal: Heliyon
+  volume: 10
+  year: 2024
+  doi: 10.1016/j.heliyon.2024.e31158

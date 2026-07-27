@@ -1,0 +1,18 @@
+# Configuration for the paper analysis workflow.
+pipeline:
+  random_seed_split: 20
+  random_seed_preprocessing: 21
+  # Matches RandomUnderSampler(sampling_strategy=1) in the analysis.
+  random_seed_undersampling: null
+  test_size: 0.20
+  missing_column_threshold_percent: 18
+  correlation_threshold: 0.80
+  outlier_standard_deviations: 2.0
+  smote_tomek_sampling_strategy: 0.40
+  undersampling_strategy: 1.0
+  rfecv_folds: 5
+  rfecv_scoring: roc_auc
+  feature_importance_threshold: 0.0094
+  # The notebook read Stata, exported CSV, then re-read the CSV. This preserves
+  # the same type-conversion path without leaving an intermediate file behind.
+  emulate_stata_csv_roundtrip: true

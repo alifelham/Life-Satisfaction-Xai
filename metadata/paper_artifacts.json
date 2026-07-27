@@ -1,0 +1,31 @@
+{
+  "artifact": "life-satisfaction-xai",
+  "release": "1.2.0",
+  "release_date": "2026-07-27",
+  "paper": {
+    "title": "Predicting life satisfaction using machine learning and explainable AI",
+    "journal": "Heliyon",
+    "year": 2024,
+    "doi": "10.1016/j.heliyon.2024.e31158"
+  },
+  "paper_notebook": {
+    "path": "notebooks/paper/published_experiment.ipynb",
+    "sha256": "5e6aa8a112239fdce406f376c8ff5f82cd5a8e3cb8a08d66b5128ee75bee29fb",
+    "cells": 177,
+    "code_cells": 135,
+    "markdown_cells": 42,
+    "role": "paper analysis notebook"
+  },
+  "implementation": {
+    "categorical_mappings": 95,
+    "post_imputation_features": 101,
+    "selected_features": 27
+  },
+  "dataset": {
+    "record_doi": "10.5061/dryad.qd2nj",
+    "expected_filename": "SHILD2012_cens_eng_16-64.dta",
+    "bundled": false,
+    "record_url": "https://datadryad.org/dataset/doi:10.5061/dryad.qd2nj",
+    "acquisition": "manual download using the Dryad Download dataset button"
+  }
+}

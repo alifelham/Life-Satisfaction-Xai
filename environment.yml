@@ -1,0 +1,9 @@
+name: life-satisfaction-xai
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.13
+  - pip
+  - pip:
+      - -r requirements-paper.txt
+      - -e .

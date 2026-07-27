@@ -1,0 +1,72 @@
+{
+  "random_forest_oob": {
+    "accuracy": 0.938,
+    "macro_f1": 0.706,
+    "macro_precision": 0.720,
+    "macro_recall": 0.693,
+    "roc_auc_reported": 0.8911
+  },
+  "gradient_boosting": {
+    "accuracy": 0.922,
+    "macro_f1": 0.703,
+    "macro_precision": 0.679,
+    "macro_recall": 0.737,
+    "roc_auc_reported": 0.8840
+  },
+  "decision_tree": {
+    "accuracy": 0.843,
+    "macro_f1": 0.586,
+    "macro_precision": 0.571,
+    "macro_recall": 0.664,
+    "roc_auc_reported": 0.6640
+  },
+  "adaboost": {
+    "accuracy": 0.920,
+    "macro_f1": 0.701,
+    "macro_precision": 0.675,
+    "macro_recall": 0.743,
+    "roc_auc_reported": 0.8660
+  },
+  "xgboost": {
+    "accuracy": 0.930,
+    "macro_f1": 0.685,
+    "macro_precision": 0.687,
+    "macro_recall": 0.682,
+    "roc_auc_reported": 0.8800
+  },
+  "svc": {
+    "accuracy": 0.477,
+    "macro_f1": 0.375,
+    "macro_precision": 0.514,
+    "macro_recall": 0.561,
+    "roc_auc_reported": 0.6070
+  },
+  "lightgbm": {
+    "accuracy": 0.931,
+    "macro_f1": 0.712,
+    "macro_precision": 0.700,
+    "macro_recall": 0.727,
+    "roc_auc_reported": 0.8910
+  },
+  "naive_bayes": {
+    "accuracy": 0.739,
+    "macro_f1": 0.551,
+    "macro_precision": 0.569,
+    "macro_recall": 0.753,
+    "roc_auc_reported": 0.8300
+  },
+  "logistic_regression": {
+    "accuracy": 0.772,
+    "macro_f1": 0.586,
+    "macro_precision": 0.588,
+    "macro_recall": 0.807,
+    "roc_auc_reported": 0.8880
+  },
+  "ensemble": {
+    "accuracy": 0.936,
+    "macro_f1": 0.730,
+    "macro_precision": 0.719,
+    "macro_recall": 0.743,
+    "roc_auc_reported": 0.8970
+  }
+}

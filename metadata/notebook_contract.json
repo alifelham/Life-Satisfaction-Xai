@@ -1,0 +1,97 @@
+{
+  "source": {
+    "path": "notebooks/paper/published_experiment.ipynb",
+    "sha256": "5e6aa8a112239fdce406f376c8ff5f82cd5a8e3cb8a08d66b5128ee75bee29fb",
+    "cells": 177,
+    "code_cells": 135,
+    "markdown_cells": 42,
+    "python_version_metadata": "3.9.12"
+  },
+  "pipeline": {
+    "target_mapping": {
+      "Content": 0,
+      "Very content": 0,
+      "Discontent": 1,
+      "Very discontent": 1
+    },
+    "excluded_columns": [
+      "A1",
+      "respnb",
+      "method",
+      "pervgt",
+      "G8",
+      "H1",
+      "H2",
+      "H3",
+      "K5",
+      "R10",
+      "R12_a"
+    ],
+    "categorical_mapping_columns": 95,
+    "test_size": 0.2,
+    "split_random_state": 20,
+    "missing_column_threshold_percent": 18,
+    "correlation_threshold": 0.8,
+    "outlier_standard_deviations": 2.0,
+    "iterative_imputer_max_iter": 10,
+    "iterative_imputer_random_state": 21,
+    "smote_tomek_sampling_strategy": 0.4,
+    "smote_tomek_random_state": 21,
+    "random_undersampler_sampling_strategy": 1.0,
+    "random_undersampler_random_state_in_notebook": null,
+    "rfecv_folds": 5,
+    "rfecv_scoring": "roc_auc",
+    "rfecv_random_forest_random_state": 21,
+    "feature_importance_threshold": 0.0094
+  },
+  "recorded_shapes_and_counts": {
+    "raw": [18957, 243],
+    "after_target_filter": [16971, 243],
+    "after_sparse_column_removal": [16971, 102],
+    "constant_columns_removed": 1,
+    "correlated_columns_removed": 0,
+    "after_smote_tomek": {
+      "0": 12586,
+      "1": 4935
+    },
+    "after_random_undersampling": {
+      "0": 4935,
+      "1": 4935
+    },
+    "rfecv_supported_features": 88,
+    "final_balanced_training": [9870, 27],
+    "test_class_support": {
+      "0": 3192,
+      "1": 203
+    }
+  },
+  "selected_features": [
+    "age",
+    "A2",
+    "C1",
+    "D2",
+    "D4",
+    "D6",
+    "D8",
+    "D10",
+    "D11",
+    "D15",
+    "D16",
+    "D17",
+    "E1",
+    "E2",
+    "E5_a",
+    "E17",
+    "job",
+    "F15",
+    "G1",
+    "J2",
+    "J4",
+    "J9",
+    "J14",
+    "J17",
+    "M2",
+    "M6",
+    "M8"
+  ]
+}
