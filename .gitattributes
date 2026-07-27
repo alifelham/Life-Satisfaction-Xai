@@ -1,0 +1,2 @@
+# Preserve publication notebooks while excluding them from language statistics.
+notebooks/**/*.ipynb linguist-generated

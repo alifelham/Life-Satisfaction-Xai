@@ -1,3 +1,11 @@
+
+# Locally downloaded research data
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated experiment outputs and serialized models
+results/generated/*
+!results/generated/.gitkeep
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

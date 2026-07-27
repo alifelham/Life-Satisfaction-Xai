@@ -70,7 +70,8 @@ See [`docs/results.md`](docs/results.md) for the complete model table.
 Python 3.10 is recommended.
 
 ```bash
-git clone https://github.com/alifelham/life-satisfaction-xai.git
+git clone https://github.com/alifelham/life-
+[![CI](https://github.com/alifelham/Life-Satisfaction-Xai/actions/workflows/ci.yml/badge.svg)](https://github.com/alifelham/Life-Satisfaction-Xai/actions/workflows/ci.yml)satisfaction-xai.git
 cd life-satisfaction-xai
 python -m venv .venv
 source .venv/bin/activate
