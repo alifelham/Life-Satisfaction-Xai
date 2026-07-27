@@ -2,6 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Heliyon-10.1016%2Fj.heliyon.2024.e31158-blue)](https://doi.org/10.1016/j.heliyon.2024.e31158)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/alifelham/Life-Satisfaction-Xai/actions/workflows/ci.yml/badge.svg)](https://github.com/alifelham/Life-Satisfaction-Xai/actions/workflows/ci.yml)
 
 Official implementation of:
 
@@ -70,9 +71,8 @@ See [`docs/results.md`](docs/results.md) for the complete model table.
 Python 3.10 is recommended.
 
 ```bash
-git clone https://github.com/alifelham/life-
-[![CI](https://github.com/alifelham/Life-Satisfaction-Xai/actions/workflows/ci.yml/badge.svg)](https://github.com/alifelham/Life-Satisfaction-Xai/actions/workflows/ci.yml)satisfaction-xai.git
-cd life-satisfaction-xai
+git clone https://github.com/alifelham/Life-Satisfaction-Xai.git
+cd Life-Satisfaction-Xai
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
